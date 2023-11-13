@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body { padding: 1rem; font-size:13px; }
+       #formName { height:20px; }
+       #alertMsg {height: 20px; color: #9c2020; }
+       .btn {
+            padding: 4px 9px;
+            border-radius: 3px;
+            font-size: 13px;
+            line-height: 1.428571429;
+            display: inline-block;
+            margin-bottom: 0;
+            border: 1px solid;
+            font-weight: normal;
+            text-align: center;
+            vertical-align: top;
+            white-space: nowrap;
+            cursor: pointer;
+            user-select: none;
+            background-color: #0065ff;
+            color: #fff;
+            border-color: #0065ff #0065ff #004dc2;
+            box-shadow: 0 1px 0 #004dc2;
+       }
+    </style>
+</head>
+<body>
+    <div>
+        <input type="text" id="formName" placeholder="폼 이름을 입력하세요" />
+        <div id="alertMsg"></div>
+        <button id="save" class="btn">저장</button>
+        <button id="load" class="btn">불러오기</button>
+        <button id="remove" class="btn">삭제</button>
+    </div>
+<script src="popup.js"></script>
+</body>
+</html>
